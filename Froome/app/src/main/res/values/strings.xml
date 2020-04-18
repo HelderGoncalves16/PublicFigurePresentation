@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Froome</string>
+    <string name="title_activity_main">Christopher Froome</string>
+    <string name="title_bio">Bio</string>
+    <string name="title_palmares">Palmarés</string>
+    <string name="title_galeria">Galeria</string>
+    <string name="options_faq">FAQ</string>
+    <string name="options_share">Share</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bio">
+        Christopher "Chris" Froome (Nairóbi, Quénia, 20 de maio de 1985) é um ciclista do Reino Unido que corre na equipa britânica Team Sky.
+        Profissional desde 2007, Froome teve um início de carreira discreto em África. A partir de 2008,
+        Froome muda-se para a equipa Barloworld. Com o desaparecimento da equipa Barloworld, Froome junta-se ao novo projeto de equipa Sky.
+        \nOs bons resultados começam pouco a pouco a aparecer, sendo segundo nos campeonatos britânicos de contrarrelógio atrás do seu colega de equipa Bradley Wiggins.
+        \nNo ano de 2011, Froome mostra o seu verdadeiro potencial, na Vuelta. Após ajudar o seu líder Bradley Wiggins a resistir aos ataques de Joaquim Rodríguez, Vincenzo Nibali e de Juan José Cobo, Froome lança-se ao ataque por diversas vezes. Na classificação final, ficou na segunda posição, a apenas 13 segundos do vencedor Juan José Cobo e à frente do seu líder teórico, Bradley Wiggins.
+        \nEle ganhou a etapa 15 do Tour de France 2013, considerada uma das mais míticas escaladas
+        dessa prova, após 242,5 km, os últimos 20 sempre a subir. No final agarrou-se de imediato a uma máscara de oxigénio.</string>
+
+    <string name="dscr_bio">Etapa Rainha Giro de Itália 2018</string>
+
+    <string name="vitorias">2005 - Tour of Mauritius - 1st stage 2\n
+        2006 - Tour of Mauritius - 2 stage wins\n
+        2007 - Tour of Japan - 1st stage 6\n
+        2007 - Tour of Japan - 1st stage 6\n
+        2009 - Giro del Capo II - 1st overall\n
+        2011 - Tour of Beijing - 3rd overall\n
+        Vuelta a Espana - 1st overall\n
+    </string>
+
+    <string name="vitorias2"> 2012 -Tour de France - 2nd overall - one stage win\n
+        2013 - Tirreno-Adriatico - 1st stage 4
+            Criterium International - 1st overall - one stage win - Tour de Romandie - 1st overall - one stage win\n
+        Criterium du Dauphine - 1st overall - one stage win\n
+        Tour de France - 1st overall
+            3 stage wins\n
+        2014 - Tour of Oman - 1st overall
+            one stage win\n
+        Tour de Romandie - 1st overall
+            one stage win\n
+        Criterium du Dauphine - 2 stage wins\n
+        Vuelta a Espana - 2nd overall\n
+        2015 - Ruta del Sol - 1st overall
+            one stage win\n
+        Criterium du Dauphine - 1st overall
+            2 stage wins\n
+        Tour de France - 1st overall
+1st Mountains Classification
+one stage win\n
+    </string>
+
+    <string name="vitorias3">
+        2016 - Herald Sun Tour - 1st overall
+            1st stage 4\n
+         Criterium du Dauphine - 1st overall
+1st stage 5>\n
+        Tour de France - 1st overall
+            2 stage wins\n
+        Olympic Games Time Trial - 3rd overall\n
+        Vuelta a Espana - 2nd overall
+            2 stage wins\n
+
+    </string>
+
+    <string name="vitorias4"> 2017 - Tour de France - 1st overall\n
+        Vuelta a Espana - 1st overall
+            2 stage wins
+            1st points jersey\n
+        2018 - Giro dItalia - 1st overall
+            2 stages\n
+        Tour de France - 3rd overall</string>
+
+
+    <string name="ProCyclingStats">ProCyclingStats</string>
+
+</resources>
