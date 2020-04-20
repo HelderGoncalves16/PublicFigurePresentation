@@ -9,9 +9,9 @@ import androidx.fragment.app.FragmentTransaction
 import com.example.froome.Fragmentos.Bio
 import com.example.froome.Fragmentos.Galeria
 import com.example.froome.Fragmentos.Palmares
-import com.example.froome.Options.Faq
+import com.example.froome.Options.AboutMe
 import com.example.froome.Options.ProCyclingStats
-import com.example.froome.Options.Share
+import com.example.froome.Options.Twitter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var bio: Bio
     lateinit var galeria: Galeria
     lateinit var palmares: Palmares
-    lateinit var faq: Faq
-    lateinit var share: Share
+    lateinit var aboutMe: AboutMe
+    lateinit var twitter: Twitter
     lateinit var pcs: ProCyclingStats
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -93,6 +93,25 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager
                 .beginTransaction()
                 .replace(R.id.frame_layout, pcs)
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                .commit()
+        }
+
+        if(id==R.id.twitter){
+            Toast.makeText(this,"A visitar Twitter de Froome",Toast.LENGTH_SHORT).show()
+            twitter = Twitter()
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.frame_layout, twitter)
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                .commit()
+        }
+
+        if(id==R.id.aboutMe){
+            aboutMe = AboutMe()
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.frame_layout, aboutMe)
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                 .commit()
         }

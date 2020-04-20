@@ -3,17 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/faq"
-        android:icon="@drawable/ic_faq"
-        android:title="@string/options_faq"
-        app:showAsAction="never"/>
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter"
+        android:title="@string/options_twitter"
+        app:showAsAction="ifRoom"
+        />
 
     <item
-        android:id="@+id/share"
-        android:icon="@drawable/ic_share"
-        android:title="@string/options_share"
-        app:showAsAction="never"
-        />
+        android:id="@+id/aboutMe"
+        android:icon="@drawable/ic_faq"
+        android:title="@string/options_AboutMe"
+        app:showAsAction="never"/>
+
 
     <item
         android:id="@+id/proCyclingStats"

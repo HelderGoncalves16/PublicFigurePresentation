@@ -4,8 +4,8 @@
     <string name="title_bio">Bio</string>
     <string name="title_palmares">Palmarés</string>
     <string name="title_galeria">Galeria</string>
-    <string name="options_faq">FAQ</string>
-    <string name="options_share">Share</string>
+    <string name="options_AboutMe">About Me</string>
+    <string name="options_twitter">Twitter</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bio">
@@ -24,53 +24,68 @@
         2007 - Tour of Japan - 1st stage 6\n
         2007 - Tour of Japan - 1st stage 6\n
         2009 - Giro del Capo II - 1st overall\n
-        2011 - Tour of Beijing - 3rd overall\n
-        Vuelta a Espana - 1st overall\n
+        2011 - Tour of Beijing - 3rd overall\nVuelta a Espana - 1st overall\n
     </string>
 
-    <string name="vitorias2"> 2012 -Tour de France - 2nd overall - one stage win\n
-        2013 - Tirreno-Adriatico - 1st stage 4
-            Criterium International - 1st overall - one stage win - Tour de Romandie - 1st overall - one stage win\n
+    <string name="vitorias2"> 2012 - Tour de France - 2nd overall - one stage win\n
+        2013 - Tirreno-Adriatico - 1st stage 4\n
+        Criterium International - 1st overall - one stage win\n
+        Tour de Romandie - 1st overall - one stage win\n
         Criterium du Dauphine - 1st overall - one stage win\n
-        Tour de France - 1st overall
-            3 stage wins\n
-        2014 - Tour of Oman - 1st overall
-            one stage win\n
-        Tour de Romandie - 1st overall
-            one stage win\n
+        Tour de France - 1st overall - 3 stage wins\n
+        2014 - Tour of Oman - 1st overall - one stage win\n
+        Tour de Romandie - 1st overall - one stage win\n
         Criterium du Dauphine - 2 stage wins\n
         Vuelta a Espana - 2nd overall\n
-        2015 - Ruta del Sol - 1st overall
-            one stage win\n
-        Criterium du Dauphine - 1st overall
-            2 stage wins\n
-        Tour de France - 1st overall
-1st Mountains Classification
-one stage win\n
+        2015 - Ruta del Sol - 1st overall - one stage win\n
+        Criterium du Dauphine - 1st overall - 2 stage wins\n
+        Tour de France - 1st overall - 1st Mountains Classification - one stage win\n
     </string>
 
     <string name="vitorias3">
-        2016 - Herald Sun Tour - 1st overall
-            1st stage 4\n
-         Criterium du Dauphine - 1st overall
-1st stage 5>\n
-        Tour de France - 1st overall
-            2 stage wins\n
+        2016 - Herald Sun Tour - 1st overall - 1st stage 4\n
+        Criterium du Dauphine - 1st overall - 1st stage 5\n
+        Tour de France - 1st overall - 2 stage wins\n
         Olympic Games Time Trial - 3rd overall\n
-        Vuelta a Espana - 2nd overall
-            2 stage wins\n
-
+        Vuelta a Espana - 2nd overall - 2 stage wins\n
     </string>
 
     <string name="vitorias4"> 2017 - Tour de France - 1st overall\n
-        Vuelta a Espana - 1st overall
-            2 stage wins
-            1st points jersey\n
-        2018 - Giro dItalia - 1st overall
-            2 stages\n
-        Tour de France - 3rd overall</string>
-
+        Vuelta a Espana - 1st overall - 2 stage wins - 1st points jersey\n
+        2018 - Giro dItalia - 1st overall - 2 stages\n
+        Tour de France - 3rd overall\n
+        Em 2019 Froome teve um acidente e não consegiu recupearar a tempo de participar na Volta a França. Contudo este enconotra-se bastante ativo
+        nos dias que correm e espera brevemente voltar à competição. Em tempos de pandemia Froome está isolado em sua casa no Monaco e treina
+        apenas indoor, para isso utiliza os seus rolos e o ginásio que construir na sua garagem.</string>
 
     <string name="ProCyclingStats">ProCyclingStats</string>
+    <string name="Giro">
+        &quot;It will be remembered as one of the most sensational days in Grand Tour history.
+        \nChris Froome was 3 minutes 22 seconds behind Simon Yates in the pursuit of the maglia rosa leading up to stage 19 of the 2018 Giro d’Italia.
+        \nThe Colle delle Finestre, an 18.5km climb sat in the middle of the stage, was the only realistic option to attack the leaders with only two stages to follow.
+        \nThe stage was set for an unbelievable comeback and one of the strongest rides you’re likely to see for years to come.
+        \nHere Chris explains what it took to pull off such a staggering attack.&quot;</string>
 
+    <string name="momentoInsolito">Estavamos em 2016 onde Thomas de Gendt venceu a 12.ª etapa da Volta a França, mas este dia ficou marcado pela queda de Froome, que teve de correr para chegar à meta e perdeu, à conta disso, a camisola amarela.
+        Mais tarde, o júri decidiu em seu favor e o britânico mantém a liderança na geral.
+        \nO que ficou na memória dos espectadores é a intervenção do público na geral,
+        devido ao fraco controlo por parte da organização.
+        \nChris Froome (Sky) atacou na última subida e com ele seguiram Richie Porte (BMC) e Bauke Mollema
+        (Trek), sendo que Nairo Quintana (Movistar) não conseguiu acompanhar o ritmo. Mas já na aproximação à meta os três ciclistas acabaram
+        por ser vítimas de um percalço.
+        \nA multidão ocupou parcialmente a estrada e obrigou à travagem súbita
+        de uma moto da organização, na tentativa de evitar a colisão com os espectadores. Froome, Mollema e
+        Porte não conseguiram parar a tempo e chocaram com o veículo. Richie Porte caiu mas conseguiu seguir viagem.
+        \nJá Froome ficou com a bicicleta partida a escassas centenas de metros do final e começou a correr monte Ventoux acima.
+        O britânico, que envergava a camisola amarela, voltou a pedalar com uma bicicleta cedida pela organização, mas os encaixes dos sapatos não eram compatíveis com os pedais.
+        \nFroome foi ultrapassado por um grupo onde seguia o colombiano Nairo Quintana, entre outros nomes importantes do Tour.
+A menos de 300 metros do final acabou por receber uma segunda bicicleta, desta feita já pelo carro de assistência da sua equipa, mas só chegou cruzou a linha final depois de todos os favoritos</string>
+
+    <string name="froomeDocumentario">ITV - Sports Life Stories: Chris Froome (2015)
+        Kenyan-born cyclist Chris Froome recounts the remarkable story of how he became only the
+        second British winner of the Tour De France. With unique access to Froome at home in
+        South Africa, we gain a new insight into his fierce rivalry with teammate Sir Bradley Wiggins,
+        and discover how he overcame personal tragedy to win one of the most demanding sporting events in the world.
+        With contributions from Sir Dave Brailsford and David Walsh</string>
+    <string name="AboutMe">Jovem estudante </string>
 </resources>

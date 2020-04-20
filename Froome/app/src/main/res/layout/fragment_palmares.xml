@@ -19,22 +19,24 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/dscr_bio"
             android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@id/textView"
             app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/froome1"
-            android:contentDescription="@string/dscr_bio"/>
+            app:layout_constraintTop_toTopOf="@id/textView"
+            app:srcCompat="@drawable/froome1" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="173dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:layout_centerInParent="true"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:text="@string/vitorias"
@@ -48,24 +50,27 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="500dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView"
             app:srcCompat="@drawable/froome3" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:layout_centerInParent="true"
-            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:text="@string/vitorias2"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintBottom_toTopOf="@id/imageView3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageView2" />
@@ -73,26 +78,26 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
-            android:layout_height="441dp"
-            android:layout_marginTop="1300dp"
+            android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView2"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/textView3"
             app:srcCompat="@drawable/froome4"
             />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:layout_centerInParent="true"
-            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
             android:text="@string/vitorias3"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageView3" />
@@ -100,16 +105,30 @@
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
-            android:layout_height="441dp"
-            android:layout_marginTop="1600dp"
+            android:layout_height="wrap_content"
             android:scaleType="centerCrop"
             app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView3"
-            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/froome5"
             />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/vitorias4"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView4" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
