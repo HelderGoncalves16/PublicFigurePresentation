@@ -23,15 +23,18 @@
                 android:id="@+id/imageView"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/dscr_bio"
                 android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@id/bio"
                 app:layout_constraintDimensionRatio="4:3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/froomebio"
-                android:contentDescription="@string/dscr_bio"/>
+                app:srcCompat="@drawable/froomebio" />
 
             <TextView
+                android:id="@+id/bio"
                 android:layout_width="411dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -41,7 +44,36 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/imageView2"
                 app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toTopOf="@id/bio2"
+                app:layout_constraintDimensionRatio="2:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bio"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/froomestats" />
+
+            <TextView
+                android:id="@+id/bio2"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal|center"
+                android:fontFamily="@font/average_sans"
+                android:text="@string/bio2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView2" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

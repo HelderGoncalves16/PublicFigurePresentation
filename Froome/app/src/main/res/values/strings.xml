@@ -9,13 +9,36 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bio">
-        Christopher "Chris" Froome (Nairóbi, Quénia, 20 de maio de 1985) é um ciclista do Reino Unido que corre na equipa britânica Team Sky.
-        Profissional desde 2007, Froome teve um início de carreira discreto em África. A partir de 2008,
-        Froome muda-se para a equipa Barloworld. Com o desaparecimento da equipa Barloworld, Froome junta-se ao novo projeto de equipa Sky.
-        \nOs bons resultados começam pouco a pouco a aparecer, sendo segundo nos campeonatos britânicos de contrarrelógio atrás do seu colega de equipa Bradley Wiggins.
-        \nNo ano de 2011, Froome mostra o seu verdadeiro potencial, na Vuelta. Após ajudar o seu líder Bradley Wiggins a resistir aos ataques de Joaquim Rodríguez, Vincenzo Nibali e de Juan José Cobo, Froome lança-se ao ataque por diversas vezes. Na classificação final, ficou na segunda posição, a apenas 13 segundos do vencedor Juan José Cobo e à frente do seu líder teórico, Bradley Wiggins.
-        \nEle ganhou a etapa 15 do Tour de France 2013, considerada uma das mais míticas escaladas
-        dessa prova, após 242,5 km, os últimos 20 sempre a subir. No final agarrou-se de imediato a uma máscara de oxigénio.</string>
+        Christopher "Chris" Froome, nascido e criado na capital do Quénia, Nairobi, é considerado um dos ciclistas mais capacitados da atualidade embora tenha chegado um pouco tarde ao ciclismo profissional
+        e ainda demorou a mostrar o potencial que muitos lhe viam associado.
+        \nFroome nasceu no Quênia para pais britânicos e cresceu lá e na África do Sul.
+        Desde 2011 ele tem sido um residente no Mónaco . Com 22 anos,
+        Froome tornou-se profissional com a Team Konica Minolta. Em 2008,
+        ele juntou-se à equipe Barloworld . Nesse mesmo ano ele mudou-se para
+        Itália e começou a passeio sob uma licença britânica. Em 2010, mudou-se
+        para a Team Sky e desde então se tornou um dos ciclistas chave da equipa.
+        Froome fez sua descoberta como um Grand Tour candidato durante a Vuelta a
+        España 2011 , onde terminou em segundo lugar geral, mais tarde promovido a
+        primeiro (Desclassificação por Doping de Cobo). No Tour de France 2012, corria como um super-domestique,
+        para Bradley, isto é um elemento de trabalho para o seu líder
+        Wiggins , Froome ganhou sete etapas e terminou em segundo lugar na geral, atrás de
+        Wiggins.
+        \nEle ganhou a etapa 15 do Tour de France 2013, considerada uma das mais míticas subidas
+        dessa prova, após 242,5 km, os últimos 20 sempre a subir com chgeada em alto.
+        No final agarrou-se de imediato a uma máscara de oxigénio.</string>
+
+    <string name="bio2"> No Tour de France 2014 , desistiu após várias falhas.
+        Em 2015, ele ganhou o seu segundo Critérium du Dauphiné e seu segundo
+        Tour de France.
+        \nEle ganhou o seu terceiro Tour de France em 2016 e tornou-se o
+        primeiro homem desde Miguel Indurain, em 1995, para defender com sucesso seu
+        título. Ele ganhou o seu quarto Tour de France em 2017, seguido por várias vitórias
+        sucessivas na edição 2017 da Vuelta a España e 2018 do Giro dItalia , suas primeiras
+        vitórias em ambas as corridas.
+        \nEstas conquistas fez dele o primeiro ciclista a
+        vencer o Tour-Vuelta no mesmo ano desde que a Vuelta foi transferido para setembro, foi
+        também o primeiro ciclista a conquistar todos os três Grand Tours no
+        mesmo ano desde a época de Bernard Hinault em 1983.</string>
 
     <string name="dscr_bio">Etapa Rainha Giro de Itália 2018</string>
 
