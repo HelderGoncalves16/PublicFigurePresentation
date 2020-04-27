@@ -4,7 +4,7 @@
     <string name="title_bio">Bio</string>
     <string name="title_palmares">Palmarés</string>
     <string name="title_galeria">Galeria</string>
-    <string name="options_AboutMe">About Me</string>
+    <string name="options_HowFarFroomeIs">Where he lives?</string>
     <string name="options_twitter">Twitter</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -87,5 +87,15 @@ A menos de 300 metros do final acabou por receber uma segunda bicicleta, desta f
         South Africa, we gain a new insight into his fierce rivalry with teammate Sir Bradley Wiggins,
         and discover how he overcame personal tragedy to win one of the most demanding sporting events in the world.
         With contributions from Sir Dave Brailsford and David Walsh</string>
-    <string name="AboutMe">Jovem estudante </string>
+
+    <string name="title_activity_froome_city">Map</string>
+
+
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="poi">poi</string>
 </resources>

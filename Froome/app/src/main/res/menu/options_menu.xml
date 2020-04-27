@@ -10,9 +10,9 @@
         />
 
     <item
-        android:id="@+id/aboutMe"
+        android:id="@+id/HowFarFroomeIs"
         android:icon="@drawable/ic_faq"
-        android:title="@string/options_AboutMe"
+        android:title="@string/options_HowFarFroomeIs"
         app:showAsAction="never"/>
 
 

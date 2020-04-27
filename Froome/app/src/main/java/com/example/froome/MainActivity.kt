@@ -1,5 +1,6 @@
 package com.example.froome
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -9,7 +10,7 @@ import androidx.fragment.app.FragmentTransaction
 import com.example.froome.Fragmentos.Bio
 import com.example.froome.Fragmentos.Galeria
 import com.example.froome.Fragmentos.Palmares
-import com.example.froome.Options.AboutMe
+import com.example.froome.Options.FroomeCity
 import com.example.froome.Options.ProCyclingStats
 import com.example.froome.Options.Twitter
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var bio: Bio
     lateinit var galeria: Galeria
     lateinit var palmares: Palmares
-    lateinit var aboutMe: AboutMe
+    lateinit var HowFarFroomeIs: FroomeCity
     lateinit var twitter: Twitter
     lateinit var pcs: ProCyclingStats
 
@@ -107,18 +108,17 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
 
-        if(id==R.id.aboutMe){
-            aboutMe = AboutMe()
-            supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.frame_layout, aboutMe)
-                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                .commit()
+        if (id == R.id.HowFarFroomeIs) {
+            startActivity(Intent(this@MainActivity, FroomeCity::class.java))
         }
+
         return true
     }
 
+
 }
+
+
 
 
 

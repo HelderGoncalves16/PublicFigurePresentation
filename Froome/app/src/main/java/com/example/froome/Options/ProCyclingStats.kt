@@ -9,7 +9,6 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import com.example.froome.R
-import kotlinx.android.synthetic.main.fragment_pro_cycling_stats.*
 
 
 class ProCyclingStats : Fragment() {
@@ -25,13 +24,14 @@ class ProCyclingStats : Fragment() {
         mWebView.loadUrl("https://www.procyclingstats.com/rider/christopher-froome")
 
         // Enable Javascript
-        val webSettings: WebSettings = mWebView.getSettings()
+        val webSettings: WebSettings = mWebView.settings
         webSettings.javaScriptEnabled = true
 
         // Force links and redirects to open in the WebView instead of in a browser
-        mWebView.setWebViewClient(WebViewClient())
+        mWebView.webViewClient = WebViewClient()
         return v
     }
+
 
 }
 
