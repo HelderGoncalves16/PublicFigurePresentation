@@ -23,11 +23,11 @@ class ProCyclingStats : Fragment() {
         mWebView = v.findViewById(R.id.webview) as WebView
         mWebView.loadUrl("https://www.procyclingstats.com/rider/christopher-froome")
 
-        // Enable Javascript
+        // Ativa o JavaScript
         val webSettings: WebSettings = mWebView.settings
         webSettings.javaScriptEnabled = true
 
-        // Force links and redirects to open in the WebView instead of in a browser
+        //Para abrir no WebLink e não no browser
         mWebView.webViewClient = WebViewClient()
         return v
     }

@@ -22,12 +22,10 @@ class Twitter : Fragment() {
         mWebView = v.findViewById(R.id.webview) as WebView
         mWebView.loadUrl("https://twitter.com/chrisfroome")
 
-        // Enable Javascript
-        val webSettings: WebSettings = mWebView.getSettings()
+        val webSettings: WebSettings = mWebView.settings
         webSettings.javaScriptEnabled = true
 
-        // Force links and redirects to open in the WebView instead of in a browser
-        mWebView.setWebViewClient(WebViewClient())
+        mWebView.webViewClient = WebViewClient()
         return v
     }
 }
